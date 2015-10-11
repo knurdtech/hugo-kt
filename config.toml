@@ -1,0 +1,19 @@
+baseurl = "http://knurdtech.com"
+languageCode = "en-us"
+title = "Knurdtech"
+theme = "hugo-redlounge"
+
+[permalinks]
+  post = "/:slug/"
+
+[params]
+  sidebartitle = "Knurdtech"
+  sidebartagline = "Is super awesome"
+#    sidebarphoto = "/img/photo.png"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+[[menu.main]]
+    name = "Disclaimer"
+    url = "/affiliate-disclaimer"
